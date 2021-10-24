@@ -14,7 +14,7 @@ class MainMenu extends StatelessWidget {
                 children: [
                   Container(
                       decoration: const BoxDecoration(
-                          color: Color(0xFF0D47A1),
+                          color: Color(0xFF003882), //color BBVA
                           borderRadius: BorderRadius.all(Radius.circular(20))),
                       margin: const EdgeInsets.all(15.0),
                       //width: 100,
@@ -27,15 +27,17 @@ class MainMenu extends StatelessWidget {
                 children: [
                   Container(
                       decoration: const BoxDecoration(
-                          color: Color(0xFF1A237E),
+                          color: Color(0xFF00b5bd),
                           borderRadius: BorderRadius.all(Radius.circular(20))),
                       margin: const EdgeInsets.all(15.0),
                       //width: 100,
-                      height: 200)
+                      height: 200
+                    )
                 ],
               ),
             )
           ],
-        ));
+        ),
+      );
   }
 }
